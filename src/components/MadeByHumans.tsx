@@ -10,7 +10,7 @@ const MadeByHumans = () => {
           backgroundImage: "url('/background-section3.png')"
         }}>
             <div className="flex items-center text-white">
-              <img src="/pp-uploads/6ca750f4-52ea-4e84-88c7-4c2dd23bd922.png" alt="Яндекс Логотип" className="h-5 sm:h-6 w-auto mr-3" />
+              <img src="https://cdn.poehali.dev/files/ebb089b6-3d89-4425-9e3e-48df56da63e8.png" alt="Ровер Логотип" className="h-5 sm:h-6 w-auto mr-3" />
               <span className="text-white text-xl font-medium">
             </span>
             </div>
