@@ -18,17 +18,17 @@ const ImageShowcaseSection = () => {
         <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-elegant mx-auto max-w-4xl animate-on-scroll">
           <div className="w-full">
             <img 
-              src="/pp-uploads/0b48b14b-7a27-49c0-ac07-8ba8e76e330c.png"
-              alt="Передовые роботы-доставщики Яндекс нового поколения" 
+              src="https://cdn.poehali.dev/files/28a1a89f-7840-4b27-9cad-0c1299f8ecbb.png"
+              alt="Передовые роботы-доставщики нового поколения" 
               className="w-full h-auto object-cover"
             />
           </div>
           <div className="bg-white p-4 sm:p-8">
-            <h3 className="text-xl sm:text-2xl font-display font-semibold mb-3 sm:mb-4">Робототехника Нового Поколения</h3>
+            <h3 className="text-xl sm:text-2xl font-display font-semibold mb-3 sm:mb-4">Модульная Робототехника</h3>
             <p className="text-gray-700 text-sm sm:text-base">
-              Созданные с прецизионной инженерией и продвинутым ИИ, наши роботы 
-              бесшовно интегрируются в различные среды, от домов до больниц, 
-              предоставляя помощь и обогащая человеческий опыт.
+              Созданные с прецизионной инженерией и продвинутым ИИ, роботы Ровер 
+              представлены в различных модификациях для доставки, охраны и помощи, 
+              адаптируясь к любым условиям эксплуатации.
             </p>
           </div>
         </div>
