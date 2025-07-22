@@ -52,11 +52,11 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Яндекс Ровер"
+          aria-label="Ровер"
         >
           <img 
             src="/pp-uploads/6ca750f4-52ea-4e84-88c7-4c2dd23bd922.png"
-            alt="Логотип Яндекс" 
+            alt="Логотип Ровер" 
             className="h-7 sm:h-8" 
           />
           <span className="text-lg sm:text-xl font-semibold text-gray-900">Ровер</span>

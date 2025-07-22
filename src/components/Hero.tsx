@@ -94,7 +94,7 @@ const Hero = () => {
             <p style={{
             animationDelay: "0.5s"
           }} className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left">
-              Автономный робот-доставщик от Яндекс, который учится и адаптируется вместе с вами.
+              Автономный робот-доставщик, который учится и адаптируется вместе с вами.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" style={{
@@ -120,7 +120,7 @@ const Hero = () => {
           <div className="w-full lg:w-1/2 relative mt-6 lg:mt-0">
             <div className="absolute inset-0 bg-dark-900 rounded-2xl sm:rounded-3xl -z-10 shadow-xl"></div>
             <div className="relative transition-all duration-500 ease-out overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
-              <img ref={imageRef} src="/pp-uploads/e7afd012-c04a-4278-bc5f-9ac823e49a5d.png" alt="Робот-доставщик Яндекс" className="w-full h-auto object-cover transition-transform duration-500 ease-out" style={{
+              <img ref={imageRef} src="/pp-uploads/e7afd012-c04a-4278-bc5f-9ac823e49a5d.png" alt="Робот-доставщик Ровер" className="w-full h-auto object-cover transition-transform duration-500 ease-out" style={{
               transformStyle: 'preserve-3d'
             }} />
               
