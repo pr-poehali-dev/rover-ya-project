@@ -55,7 +55,7 @@ const Navbar = () => {
           aria-label="Ровер"
         >
           <img 
-            src="/pp-uploads/6ca750f4-52ea-4e84-88c7-4c2dd23bd922.png"
+            src="https://cdn.poehali.dev/files/ebb089b6-3d89-4425-9e3e-48df56da63e8.png"
             alt="Логотип Ровер" 
             className="h-7 sm:h-8" 
           />
