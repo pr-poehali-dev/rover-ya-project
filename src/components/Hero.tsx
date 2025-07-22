@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
-import LottieAnimation from "./LottieAnimation";
+
 const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
-  const [lottieData, setLottieData] = useState<any>(null);
+
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     // Check if mobile on mount and when window resizes
@@ -16,9 +16,7 @@ const Hero = () => {
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
-  useEffect(() => {
-    fetch('/loop-header.lottie').then(response => response.json()).then(data => setLottieData(data)).catch(error => console.error("Error loading Lottie animation:", error));
-  }, []);
+
   useEffect(() => {
     // Skip effect on mobile
     if (isMobile) return;
