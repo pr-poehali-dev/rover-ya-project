@@ -120,7 +120,7 @@ const Hero = () => {
           <div className="w-full lg:w-1/2 relative mt-6 lg:mt-0">
             <div className="absolute inset-0 bg-dark-900 rounded-2xl sm:rounded-3xl -z-10 shadow-xl"></div>
             <div className="relative transition-all duration-500 ease-out overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
-              <img ref={imageRef} src="/pp-uploads/e7afd012-c04a-4278-bc5f-9ac823e49a5d.png" alt="Робот-доставщик Ровер" className="w-full h-auto object-cover transition-transform duration-500 ease-out" style={{
+              <img ref={imageRef} src="https://cdn.poehali.dev/files/3a34c29e-1d4b-45d7-9c95-68e35967241d.png" alt="Робот-доставщик Ровер" className="w-full h-auto object-cover transition-transform duration-500 ease-out" style={{
               transformStyle: 'preserve-3d'
             }} />
               
